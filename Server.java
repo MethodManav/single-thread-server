@@ -9,7 +9,7 @@ class Server {
 
     @SuppressWarnings("CallToPrintStackTrace")
     public void run() {
-        int port = 8010;
+        int port = 8000;
         try {
             ServerSocket socket = new ServerSocket(port);
             socket.setSoTimeout(10000);
